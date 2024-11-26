@@ -1,20 +1,20 @@
 # Replace with the name which you want to give to your EKS cluster
 # Cluster name can have only lowercase alphanumeric characters and hyphens
 # For example: "digit-demo"
-cluster_name: "pucar_test"
+cluster_name: "pucar-test"
 
 # Replace with ssh key name you want
-ssh_key_name: "pucar_test-ssh-key" 
+ssh_key_name: "pucar-test-ssh-key"
 
 # Replace with public key which you want to add in your EC2 machines # ssh key which you want to add in your EC2 machines
-public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCVSaon1rHZ4DeQ+ZEUVAcUSNV/RS4GjXdVdwlJ7y5ECGAkLM2TngdCO5qer+/BcriGgGfSHJtXHckBYHJPcgI39cPvk7OGeb2qihgSgnrTieRBvb9TXC25Q9ECwP+YVK6Z0arvdAihsfKpeWq6gXvuwGhqbLKgjmdf2E2qf29Ns2v9hDzdHn7pOdx8rxzl/TCaTn/ok3WBNlR4+pjFDgYMpL0MXNmdSVzqBgcRETIORmjZDulpsfxAJCDwZ9PuY8bolvfKPKtwySJVZQKf9PhbY2OyvuCDrH5Ggal5d+D/BUAZtAFWv6AR4V07OVZ+bTHLKzI979v5+9a2sJfmAXKd"
+public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCVSaon1rHZ4DeQ+ZEUVAcUSNV/RS4GjXdVdwlJ7y5ECGAkLM2TngdCO5qer+/BcriGgGfSHJtXHckBYHJPcgI39cPvk7OGeb2qihgSgnrTieRBvb9TXC25Q9ECwP+YVK6Z0arvdAihsfKpeWq6gXvuwGhqbLKgjmdf2E2qf29Ns2v9hDzdHn7pOdx8rxzl/TCaTn/ok3WBNlR4+pjFDgYMpL0MXNmdSVzqBgcRETIORmjZDulpsfxAJCDwZ9PuY8bolvfKPKtwySJVZQKf9PhbY2OyvuCDrH5Ggal5d+D/BUAZtAFWv6AR4V07OVZ+bTHLKzI979v5+9a2sJfmAXKd "
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
 db_name: "pucartestdb"
 
 # Replace with DB username you want
-# DB user name must contain only alphanumeric characters
+# DB username must contain only alphanumeric characters
 db_username: "pucartest" 
 
 # Replace with Domain name you want for your web applications
